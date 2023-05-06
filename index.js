@@ -4,7 +4,7 @@ import * as module from './script.js';
 
 const port = module.port;
 
-const serverUrl = "http://127.0.0.1:" + port;
+const serverUrl = "https://witty-shoulder-pads-hare.cyclic.app/"
 setTimeout(() => {
   let userArr = [];
 
