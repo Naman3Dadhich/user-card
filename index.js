@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-const serverUrl = "http://localhost:8000";
+const serverUrl = "https://jolly-ganache-aaaae0.netlify.app/";
 
 let userArr = [];
 
