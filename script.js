@@ -65,4 +65,4 @@ app.listen(port, () => {
   console.log("i am running" + port);
 });
 
-module.export = port
+export default port;
