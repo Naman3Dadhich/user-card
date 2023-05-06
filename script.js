@@ -12,7 +12,7 @@ client.connect((err) => {
   } else console.log("database connected");
 });
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 const app = express();
 app.use(cors(
 //   {
