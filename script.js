@@ -14,11 +14,13 @@ client.connect((err) => {
 
 const port = 8000;
 const app = express();
-app.use(cors({
-  origin: "https://main--jolly-ganache-aaaae0.netlify.app/", // only allow requests from this origin
-  methods: "GET,POST", // only allow GET and POST requests
-  credentials: true // allow cookies to be sent with requests
-}));
+app.use(cors(
+//   {
+//     origin: "https://main--jolly-ganache-aaaae0.netlify.app/", // only allow requests from this origin
+//     methods: "GET,POST", // only allow GET and POST requests
+//     credentials: true // allow cookies to be sent with requests
+//   }
+));
 app.use(express.json());
 
 app.get("/", (req, res) => {
