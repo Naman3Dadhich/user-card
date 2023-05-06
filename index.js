@@ -1,6 +1,6 @@
 const container = document.querySelector(".container");
 
-const port = 8000;
+const port = import(port);
 const serverUrl = "http://127.0.0.1:" + port;
 
 let userArr = [];
