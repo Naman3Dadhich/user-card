@@ -1,13 +1,8 @@
 const container = document.querySelector(".container");
 
-import('./script.js')
-  .then((module) => {
-    const port = module.port;
-    console.log(port); // should log the value of port
-  })
-  .catch((err) => {
-    console.error(err);
-  });
+import * as module from './script.js';
+
+const port = module.port;
 
 const serverUrl = "http://127.0.0.1:" + port;
 setTimeout(() => {
