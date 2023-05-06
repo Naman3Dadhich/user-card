@@ -1,6 +1,6 @@
 const container = document.querySelector(".container");
 
-const port = process.env.PORT || 8000;
+const port = 8000;
 const serverUrl = "http://127.0.0.1:" + port;
 
 let userArr = [];
