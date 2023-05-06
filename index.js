@@ -1,6 +1,6 @@
 const container = document.querySelector(".container");
 
-const.port = require('./script')
+const port = require('./script')
 const serverUrl = "http://127.0.0.1:" + port;
 setTimeout(() => {
   let userArr = [];
