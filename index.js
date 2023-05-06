@@ -46,8 +46,8 @@ addUsersButton.addEventListener("click", () => {
 //       );
 //     });
 
-    createCardList(filteredArray);
-  });
+//     createCardList(filteredArray);
+//   });
 
   const secretKey = prompt("enter your secretKey");
 
