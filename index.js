@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-const serverUrl = "localhost:8000";
+const serverUrl = "http://localhost:8000";
 
 let userArr = [];
 
