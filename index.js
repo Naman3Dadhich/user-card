@@ -1,7 +1,6 @@
 const container = document.querySelector(".container");
 
-const portu = window.port
-const serverUrl = "http://127.0.0.1:" + portu;
+const serverUrl = "http://127.0.0.1:" + window.port;
 
 let userArr = [];
 
