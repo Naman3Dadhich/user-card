@@ -36,15 +36,15 @@ addUsersButton.addEventListener("click", () => {
     email,
   };
 
-  input.addEventListener("input", (event) => {
-    const searchStr = event.target.value.toLowerCase();
+//   input.addEventListener("input", (event) => {
+//     const searchStr = event.target.value.toLowerCase();
 
-    const filteredArray = usersArray.filter((ele) => {
-      return (
-        ele.username.toLowerCase().includes(searchStr) ||
-        ele.email.toLowerCase().includes(searchStr)
-      );
-    });
+//     const filteredArray = usersArray.filter((ele) => {
+//       return (
+//         ele.username.toLowerCase().includes(searchStr) ||
+//         ele.email.toLowerCase().includes(searchStr)
+//       );
+//     });
 
     createCardList(filteredArray);
   });
